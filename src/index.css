@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  background-color: #ededed;
+}
+
+.navbar-brand {
+  font-size: 2vw !important;
+  color: darkslategrey !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.navbar-nav a {
+  color: darkslategrey;
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 1.8em !important;
+  margin: 20px;
+}
+
+.card p {
+  font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  gap: 3vw;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 1vh 2vw;
+}
+
+.card-container h4 {
+  font-size: 2.8vw;
+  margin-bottom: auto;
+}
+
+.card-container p {
+  font-size: 0.8vw;
+  margin-bottom: auto;
+}
+
+.avatar-img {
+  align-content: center;
+  max-width: 20vw;
+  height: auto;
+  border-radius: 5%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+  }
+}
+
+.about-text {
+  width: 85vh;
+  margin-left: 10vw;
+}
+
+.about p {
+  font-size: large !important;
+}
+
+.about-img {
+  align-content: center;
+  max-width: 30vw;
+  height: auto;
+  margin: 5vw;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.banner-text {
+  background-color: black;
+  width: 50%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.banner-text-h1 {
+  word-wrap: break-word;
+  width: 50%;
+  margin: auto;
+  margin: auto;
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 2px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  vertical-align: middle;
+  font-size: 1.8vw;
+  padding: 1em;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.social-media-links-icon {
+  color: white;
+  font-size: 6vw;
+  padding: 10%;
+  margin: auto;
+}
