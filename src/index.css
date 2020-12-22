@@ -76,12 +76,6 @@ html {
   border-radius: 5%;
 }
 
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
@@ -91,21 +85,39 @@ html {
   }
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-text {
   width: 85vh;
   margin-left: 10vw;
 }
 
-.about p {
-  font-size: large !important;
-}
-
 .about-img {
   align-content: center;
-  max-width: 30vw;
+  width: 30vw;
   height: auto;
   margin: 5vw;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+  .about-text {
+    width: 50vh;
+  }
+  .about-img {
+    width: 70vw;
+    margin: 1vh;
+  }
+}
+
+.about p {
+  font-size: large !important;
+  margin: auto;
+  object-fit: scale-down;
 }
 
 .banner-text {
