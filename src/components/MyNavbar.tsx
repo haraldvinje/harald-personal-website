@@ -12,7 +12,7 @@ const activeNavLinkStyle: React.CSSProperties | undefined = {
 export const MyNavbar: React.FC = () => {
   return (
     <Navbar collapseOnSelect expand="lg" variant="light">
-      <Navbar.Brand href="/">Harald Vinje</Navbar.Brand>
+      <Navbar.Brand href="/">&lt;Harald /&gt;</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
         className="justify-content-end"
