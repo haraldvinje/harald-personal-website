@@ -106,7 +106,7 @@ html {
 
 @media (max-width: 800px) {
   .about-text {
-    width: 50vh;
+    width: 80%;
   }
   .about-img {
     width: 70vw;
