@@ -1,4 +1,4 @@
-# Harald Portifolio Website
+# My Personal Website
 
 Personal website. Work in progress.
 
