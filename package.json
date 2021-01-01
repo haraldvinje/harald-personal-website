@@ -7,6 +7,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
+    "@pdftron/webviewer": "^7.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -19,6 +20,7 @@
     "@types/react-router-dom": "^5.1.6",
     "axios": "^0.20.0",
     "bootstrap": "^4.5.3",
+    "pdf-viewer-reactjs": "^2.1.2",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
@@ -29,6 +31,7 @@
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
+    "@types/pdf-viewer-reactjs": "^2.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "2.0.5"
   },
