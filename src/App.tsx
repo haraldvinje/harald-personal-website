@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { Layout, Content } from 'react-mdl';
+import { BrowserRouter } from 'react-router-dom';
 import Routes from './navigation/Routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MyNavbar } from './components/MyNavbar';
@@ -8,13 +8,10 @@ import { MyNavbar } from './components/MyNavbar';
 function App() {
   return (
     <div className="demo-big-content">
-      <Layout>
+      <BrowserRouter>
         <MyNavbar />
-        <Content>
-          <div className="page-content" />
-          <Routes />
-        </Content>
-      </Layout>
+        <Routes />
+      </BrowserRouter>
     </div>
   );
 }
