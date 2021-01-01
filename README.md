@@ -4,7 +4,7 @@ Personal website. Work in progress.
 
 ## Check it out
 
-[haraldvinje.com](https://www.haraldvinje.com)
+<a href="https://www.haraldvinje.com" target="_blank">haraldvinje.com</a>
 
 ## Development
 
