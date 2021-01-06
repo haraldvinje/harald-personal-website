@@ -126,12 +126,31 @@ html {
   .about-img {
     width: 60%;
   }
+  .react-pdf__Page__canvas {
+    width: 80% !important;
+    height: 80% !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .react-pdf__Page__textContent {
+    width: 100% !important;
+  }
+
 }
 
 .about p {
   font-size: large !important;
   margin: auto;
   object-fit: scale-down;
+}
+
+.react-pdf__Page__canvas {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+}
+.react-pdf__Page_canvas:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .banner-text {
@@ -181,3 +200,10 @@ html {
   padding: 10%;
   margin: auto;
 }
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
