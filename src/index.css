@@ -126,6 +126,14 @@ html {
   .about-img {
     width: 60%;
   }
+  .react-pdf__Page__canvas {
+    width: 80% !important;
+    height: 80% !important;
+  }
+  .react-pd__Page__textContent {
+    width: 100% !important;
+  }
+
 }
 
 .about p {
@@ -180,4 +188,10 @@ html {
   font-size: 6vw;
   padding: 10%;
   margin: auto;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
