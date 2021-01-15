@@ -203,7 +203,19 @@ html {
 
 .resume {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
+
+.resume-intro {
+  font-family: sans-serif;
+  padding: 2vh;
+  text-align: left;
+}
+
+/* Hacky solution to prevent pdf resume div to overfill screen on mobile devices. Seem to work!*/
+.react-pdf__Page__textContent {
+  display: none;
+}
+
 
