@@ -1,11 +1,30 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf';
 import samplePDF from '../static/HaraldVinjeResume.pdf';
+import Loader from 'react-loader-spinner';
 
 const Resume: React.FC = () => {
   return (
     <div className="resume">
-      <Document file={samplePDF}>
+      <div className="resume-intro">
+        <h3>
+          {' '}
+          <b>Check out my resume! </b>
+        </h3>
+        <p>Updated December 2020</p>
+      </div>
+      <Document
+        file={samplePDF}
+        loading={
+          <Loader
+            type="Puff"
+            color="#00BFFF"
+            height={100}
+            width={100}
+            timeout={3000}
+          />
+        }
+      >
         <Page className="pdf-document" pageNumber={1} />
       </Document>
     </div>
