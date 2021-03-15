@@ -18,7 +18,7 @@ const Contact: React.FC<Props> = () => {
         </a>{' '}
         if you'd like to get in touch!
       </p>
-      <img src={CodingImg} />
+      <img src={CodingImg} alt="something went wrong with loading" />
     </div>
   );
 };
