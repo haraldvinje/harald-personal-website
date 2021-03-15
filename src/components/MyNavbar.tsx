@@ -25,9 +25,6 @@ export const MyNavbar: React.FC = () => {
           <NavLink to="/about" activeStyle={activeNavLinkStyle}>
             About
           </NavLink>
-          <NavLink to="/projects" activeStyle={activeNavLinkStyle}>
-            Projects
-          </NavLink>
           <NavLink to="/resume" activeStyle={activeNavLinkStyle}>
             Resume
           </NavLink>

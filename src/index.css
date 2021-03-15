@@ -103,6 +103,29 @@ html {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+
+
+.contact {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact p {
+  width: 50vh;
+  font-size: 1.4vh;
+}
+
+
+.contact img {
+  align-content: center;
+  width: 50vw;
+  height: auto;
+  margin: 5vw;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
 @media (max-width: 800px) {
   .about-text {
     width: 80%;
@@ -126,6 +149,12 @@ html {
   .about-img {
     width: 60%;
   }
+
+  .contact p{
+    width: 60%;
+  }
+
+  
   .react-pdf__Page__canvas {
     width: 80% !important;
     height: 80% !important;
@@ -152,9 +181,9 @@ html {
 .react-pdf__Page_canvas:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
+/*#484848*/
 .banner-text {
-  background-color: black;
+  background-color: #484848	;
   width: 50%;
   margin: 5%;
   border-radius: 10px;
@@ -212,6 +241,9 @@ html {
   padding: 2vh;
   text-align: left;
 }
+
+
+
 
 /* Hacky solution to prevent pdf resume div to overfill screen on mobile devices. Seem to work!*/
 .react-pdf__Page__textContent {
