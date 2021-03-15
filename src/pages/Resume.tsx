@@ -11,7 +11,7 @@ const Resume: React.FC = () => {
           {' '}
           <b>Check out my resume! </b>
         </h3>
-        <p>Updated December 2020</p>
+        <p>Updated January 2021</p>
       </div>
       <Document
         file={samplePDF}
